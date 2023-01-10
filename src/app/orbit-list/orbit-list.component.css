@@ -13,7 +13,7 @@ table {
  overflow: hidden;
  margin: 12px 0;
  min-width: 300px;
- background: #dad8d8;
+ background: #c0bcbc;
 }
 
 .header-row {
@@ -25,4 +25,12 @@ th, td {
 	text-align: left;
 	margin: 5px 10px;
 	padding: 6px;
+}
+
+#data:nth-child(even){
+	background: rgb(148, 175, 97);
+}
+
+#data:nth-child(odd){
+	background: rgb(171, 173, 167);
 }
